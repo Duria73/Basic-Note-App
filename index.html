@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Note App</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <container class="hero">
+            <div class="main">
+                <div class="title">
+                    <h1 class="titler">Note Taker</h1>
+                </div>
+                <div class="note-main">
+                    <h3>Add A New Note:</h3>
+                   
+                    <div class="title-form">
+                            <label class="title-label">Note Title:</label>
+                            <input type="text" id="note-title" rows="7" placeholder="Give your note a title..." style="font-size: 16px">
+                    </div>
+                    <div class="note-body">
+                            <label class="note-label">Note:</label>
+                            <textarea type="text" rows="7" cols="80" class="text-box" id="textBox" value="text here" style="font-size: 16px"
+                                placeholder="Write your note here..."></textarea>
+                    </div>
+               
+                </div>
+                <div class="button">
+                    <button class="add-button">Add Note</button>
+                    <button class="delete-button">Delete All</button>
+                </div>
+                
+            </div>
+            <div class="note-storage">
+                <div class="modal">
+            
+                </div>
+                <div class="expanded-modal"></div>
+            </div>
+        </container>
+      
+        
+        <script src="app.js" async defer></script>
+    </body>
+</html>
